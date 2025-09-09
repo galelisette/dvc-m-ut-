@@ -70,7 +70,9 @@ To build the libraries, use the root `CMakeLists.txt` file with the CMake GUI (i
 1. **Enable** the `BuildLibs` option
 2. **Set** the `CMAKE_INSTALL_PREFIX` variable to the desired installation directory
 3. Click **Configure**, then **Generate**, and build the generated CMake project (Visual Studio, Xcode, command-line, or other supported tools)
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/galelisette/dvc-m-ut-/81d59248bd5d4a36f1ff28f2aee5cb1b575d4de2/im.png" alt="DVCompute++ Simulator" width="600"/>
+</div>
 Once compiled, install the libraries using either:
 - `cmake --install`
 - `make install` (if building with Makefiles)
